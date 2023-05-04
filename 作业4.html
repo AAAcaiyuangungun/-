@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            .header,.footer{
+                background-color: gray;
+                padding: 15px;
+                color: white;
+                }  
+            .navigation ul{
+                background-color: black;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            .navigation li{
+                float: left;
+            }
+            .navigation li a{
+                text-decoration: none;
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+            }
+            .navigation li a:hover{
+                background-color: darkblue;
+            }
+            .first{
+                background-color: crimson;
+            }
+            .column{
+                float: left;
+                padding: 15px;
+            }
+            .column menu{
+                width: 25%;
+            }
+            .content{
+                width: 75%;
+            }
+            .column li{
+               padding: 8px;
+               list-style-type: none;
+               background-color:rgb(95, 160, 235);
+               margin-bottom: 8px;
+               color: white;
+            }
+            .footer{
+              clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Chania</h1>
+        </div>
+        <div class="navigation menu">
+            <ul>
+                <li><a href="#home" class="first one">Home</a></li>
+                <li><a href="#home">News</a></li>
+                <li><a href="#home">Contents</a></li>
+                <li><a href="#home">About</a></li>
+            </ul>
+        </div>
+        <div class="column menu">
+            <ul>
+                <li>The Flight</li>
+                <li>The City</li>
+                <li>The Island</li>
+                <li>The Food</li>
+            </ul>
+        </div>
+        <div class="column content">
+            <h1>The City</h1>
+            <p>Chania is the captial of the Chania region on the island of Crete</p>
+        </div>
+        <div class="footer">
+            <p>Footer Text</p>
+        </div>
+        </body>
+</html>
