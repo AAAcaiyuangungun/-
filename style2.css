@@ -35,12 +35,13 @@
 			color: rgb(205, 172, 89);
 		}
 			/*大体两列排版*/
-		   #sidebar{
-			float: left;
-			width: 25%;
-			background-color:darkolivegreen;
-			margin: -10px;
-		   }
+			#sidebar{
+				position:fixed;
+				top:0;
+				left:0;
+				background-color: darkolivegreen;
+				width: 25%;
+			}
 		   #main{
 			float: right;
 			width: 75%;
