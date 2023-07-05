@@ -1,0 +1,264 @@
+            /*页面背景设置*/
+			.is-preload{
+				background-color: rgb(253, 240, 222);
+			}
+			/*页面最上面顶头部分*/
+			.icons li{
+			    float: right;
+			   list-style-type: none;
+			   height: 100px;
+			}
+			.icons li a{
+				text-decoration: none;
+				margin: 300px 20px;
+				padding:30px 20px;
+				font-size: 25px;
+				color: rgb(242, 107, 58);
+			}
+			.icons li a:hover{
+				border-bottom: 7px solid rgb(247, 211, 122);
+			}
+			.icons{
+			margin-right: 30px;
+			
+		}
+			.logo{
+				text-decoration: none;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 10px;
+				float: left;
+			    font-size: 25px;
+				color: rgb(242, 107, 58);
+				background-color: rgb(247, 211, 122);
+				border: 1px solid rgb(247, 211, 122);
+				border-radius: 20px;
+				width: 500px
+		}
+		    .logo strong{
+                padding-left: 10px;
+		}
+		.logo:hover{
+			color: aliceblue;
+		}
+			/*大体两列排版*/
+		   #sidebar{
+			float: left;
+			width: 25%;
+		   }
+		   #main{
+			float: left;
+			width: 75%;
+		   }
+         /*简介部分*/
+		  #banner{
+			clear: both;
+			margin-left: 40px;
+			margin-bottom: 40px;
+			background-color:rgb(249, 175, 149);
+			border-color: rgb(249, 175, 149);
+			border-radius: 30px;
+			width: 90%;
+			display: flex;
+			height: 470px;
+		  }
+		  #banner header{
+			padding-left: 50px;
+			padding-top: 10px;
+			color: rgb(247, 211, 122);
+			font-size: 43px;
+			font-weight: 800;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		  }
+		  #banner p{
+			width: 90%;
+			padding-left: 30px;
+			font-size:25px;
+			line-height: 35px;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		  }
+		 #banner img{
+			width: 400px;
+			height:400px;
+			padding-right: 35px;
+			padding-top: 30px;
+		 }
+		 .actions{
+			padding-left: 100px;
+			color:rgb(247, 211, 122) ;
+		 }
+		 .actions li{
+			list-style-type:square;
+			width: 100px;
+			height: 30px;
+			border-radius: 10px;
+		 }
+		 .actions li a{
+			color: rgb(242, 107, 58);
+			text-decoration: none;
+            font-size: 17px;
+			font-weight: 600;
+			text-align: center;
+		 }
+		 .actions li a:hover{
+			color:rgb(247, 211, 122) ;
+		 }
+		 /*主体章节部分*/
+		 /*feature章节*/
+		 #main section{
+			width: 90%;
+			margin-left: 40px;
+			margin-bottom: 40px;
+		 }
+		 .features{
+			margin-bottom: 700px;
+		 }
+		 .features article{
+			float: right;
+			width: 49.5%;
+			height: 250px;
+            background-color:bisque;
+			margin-top: 50px;
+			border: 3px solid bisque;
+			border-radius: 30px;
+		 }
+		 .features article div{
+			margin: 30px;
+		 }
+		 .features article div h3{
+			color:  rgb(242, 107, 58);
+			font-size: 40px;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		 }
+		 .features article div p{
+			color:  rgb(242, 107, 58);
+			font-size: 25px;
+			text-align: left;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		 }
+		 /*主体标题样式部分*/
+		 #main .major{
+			padding-left: 37px;
+			clear: both;
+			height: 100px;
+			display: block;
+			border-bottom: 5px dashed rgb(249, 175, 149);
+			width: 98%;
+		  }
+		  #main .major h2{
+			color:rgb(247, 211, 122);
+			font-size: 80px;
+			font-weight: 800;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			width: 98%;
+		  }
+		  /*goods章节*/
+		  .posts article{
+			float: right;
+			width: 32.5%;
+            background-color:rgb(245, 186, 165);
+			border: 1px solid rgb(249, 175, 149);
+			margin: 10px 5px;
+			border-radius: 10px;
+
+		  }
+		  .posts img{
+			width: 400px;
+			height: 150px;
+			padding: 10px;
+			padding-left: 45px;
+		  }
+		  .posts h3,p{
+			margin: 20px;
+			text-align: center;
+		  }
+		  .posts h3{
+			font-size: 30px;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		  }
+		  .posts p{
+			font-size: 22px;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+			color:rgb(248, 243, 236) ;
+		  }
+		 
+		  /*search部分*/
+		  input[type="text"] {
+           width: 380px;
+           top: 30%;
+           left: 26%;
+           padding: 15px 10px;
+           border-radius: 17px;
+           border-color: white;
+           webkittransition0.5s;
+           transition:0.5s;
+           margin:20px 40px;
+        
+        }
+        input[type="text"]:focus{
+            border-color:cornflowerblue;
+        }
+        input[type="text"]:hover{
+            transform: scale(1.1,1.1);
+            }
+			 /*menu部分*/
+			 #menu{
+			margin-left: 25px;
+			margin-top: 40px;
+			background-color: bisque;
+			border: 1px solid bisque;
+			border-radius: 20px;
+			 }
+            #menu h2{
+				padding-left: 15px;
+				padding-bottom: 10px;
+				color: rgb(242, 107, 58);
+				font-size: 50px;
+				font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				font-weight: 4px;
+				text-align: center;
+				border-bottom: 5px dashed rgb(249, 175, 149);
+			}
+		  #menu li{
+			list-style-type:none;
+			padding: 20px;
+			
+		  }
+		  #menu li a{
+			text-decoration: none;
+			font-size: 35px;
+           font-weight: 800;
+			color:  rgb(242, 107, 58);
+			font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+		  }
+		  #menu li:hover{
+			background-color: rgb(247, 211, 122);
+		  }
+		  /*尾页部分*/
+		  #menu+section{
+			margin-top: 1500px;
+			color:rgb(242, 107, 58);
+			background-color:bisque ;
+			border: 4px solid bisque;
+			border-radius: 20px;
+			margin-left: 25px;
+		  }
+		  #menu+section h3{
+			font-size: 30px;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			padding-left: 500px;
+		  }
+		  #menu+section p{
+			font-size: 20px;
+			font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		  }
+		  #menu+section a{
+			color:rgb(242, 107, 58);
+		  }
+		  #footer{
+			color: rgb(247, 211, 122);
+			margin: 0;
+		  }
+		  #footer a{
+			color:rgb(245, 186, 165) ;
+		  }
